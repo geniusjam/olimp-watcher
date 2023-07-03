@@ -5,7 +5,8 @@ Pings TÜBİTAK's website every minute (configurable) and makes an announcement 
 2. Paste the URL into .env
 3. `npm i` upon first run
 4. `node index.js` to run the app.
-# Configuration
+
+# Configuration
 See example.env
 PING_EVERY is in minutes.
 You may leave CONTENT blank. The webhook will send the content along with the announcement's embed. If you want certain roles to be mentioned when a new announcement is made, it is a good idea to mention the roles in CONTENT.
